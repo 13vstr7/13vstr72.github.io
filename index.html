@@ -1,0 +1,82 @@
+﻿
+	<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>vstr</title>
+	
+    <link rel="stylesheet" href="style.css">
+	 <!-- jQuery -->
+    <script src="https://ma-5.github.io/ma5slider/js/jquery.min.js"></script>
+     
+    <!-- jQuery UI mouse draggable widget -->
+    <script src="https://ma-5.github.io/ma5slider/js/jquery-ui.min.js"></script>
+     
+    <!-- Touch Event Support for jQuery UI -->
+    <script src="https://ma-5.github.io/ma5slider/js/jquery.ui.touch-punch.min.js"></script>
+     
+    <!-- MA5 Slider -->
+    <link href="https://ma-5.github.io/ma5slider/css/ma5slider.min.css" rel="stylesheet" type="text/css">
+    <script src="https://ma-5.github.io/ma5slider/js/ma5slider.min.js"></script>
+     
+    <script>
+        $(window).on('load', function () {
+            $('.ma5slider').ma5slider();
+        });
+    </script>
+  </head>
+  <body>
+   <header class="page-header">
+     <div class="logo">
+        <a href="index.html"><img src="logo.png" width="300" height="90">
+      </div>
+	  <nav class="main-menu">
+        <ul>
+          <li><a href="photo.html">фотогалерея</a></li>
+          <li><a href="list.html">прайс-лист</a></li>
+		  <li><a href="studia.html">студия</a></li>
+		  <li><a href="blog.html">творческий путь</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+       <article class="about-me">
+	    <div class="list">
+		<a href="blog.html">HELLO!
+		</br>My name is Eva.
+		</br>I'm a photographer.</a>
+		</div>
+      </article>
+	  <section class="posts">
+<div class="ma5slider anim-vertical loop-mode autoplay">
+		
+      <div class="slides">
+          <a href="#slide-1"><img src="imf/fp1.jpg" alt="1"></a>
+          <a href="#slide-2"><img src="imf/sv3.jpg" alt="2"></a>
+          <a href="#slide-3"><img src="imf/st4.jpg" alt="3"></a>
+          <a href="#slide-4"><img src="imf/lv2.jpg" alt="4"></a>
+		  <a href="#slide-5"><img src="imf/fp2.jpg" alt="5"></a>
+          <a href="#slide-6"><img src="imf/fp5.jpg" alt="6"></a>
+          <a href="#slide-7"><img src="imf/st6.jpg" alt="7"></a>
+          <a href="#slide-8"><img src="imf/lv3.jpg" alt="8"></a>
+          
+      </div>
+  </div>
+      </section>
+	 <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 127607773, {expanded: "1",tooltipButtonText: "Есть вопрос?"});
+</script>
+    </main>
+	<footer class="page-footer">
+       <section class="info">
+		<p>связаться со мной:
+        <a href="https://vk.com/e_vstr"><img src="1ic.png" width="50" alt="vk"></a> <a href="https://www.instagram.com/e_vstr_/"><img src="2ic.png" width="50" alt="inst"></a></p> 
+		<p>неформальный блог фотографа тут <a href="https://vk.com/vstr_ph"><img src="3ic.png" width="50" alt="здесь должна быть ссылка на мой блог"></a></p>
+        
+      </section>
+    </footer>
+  </body>
+</html>
